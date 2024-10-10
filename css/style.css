@@ -5,10 +5,28 @@
 body{
     font-size: 14.35px;
     font-family: segoe;
-    color: var(--primary-color);
 }
-:root{
-    --primary-color: #909090
+
+/* Margins en padding */
+.w-40{
+    width: 40%;
+}
+.w-60{
+    width: 60%;
+}
+
+/* COLORS */
+.ctekstmain{
+    color:#909090;/*tekstkleur*/
+}
+.cbgmain{
+    background:#909090;/*tekstkleur*/
+}
+.ctekstblue{
+    color:#5094f2;
+}
+.cbgblue{
+    background:#5094f2;
 }
 
 /* FONTS */
@@ -59,6 +77,24 @@ body{
     text-align:center;
 }
 
+/* NAVIGATION MENU */
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+}
+/*nav ul li a:hover{
+    background: #5094f2;
+    color: #fff;
+    border-radius: 5px;
+}*/
+nav ul li a:hover{
+    color: #5094f2;
+    border-bottom: 3px solid #5094f2;
+}
+
 /* SECTION LATEST NEWS */
 h2{
     font-size: 42.35px;
@@ -66,7 +102,6 @@ h2{
 }
 h3{
     font-size: 20.35px;
-    color: #5094f2;
 }
 .latestnewsp{
     width: 248px;
@@ -85,4 +120,13 @@ h3{
 }
 #basket{
     background: #ebbb11;
+}
+
+/* FOOTER */
+
+footer{
+    border-top: 1px solid #909090;
+}
+footer p{
+    padding: 35px 0px;
 }
