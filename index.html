@@ -5,64 +5,173 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Robin Cau">
     <link rel="stylesheet" href="./css/style.css">
     <title>Prechu</title>
 </head>
 <body>
-    <nav class="d-flex">
-        <div class="d-flex w-40">
-            <img src="../img/logo.png" alt="logo prechu">
-            <p>Prechu</p>
+<div id="wrapper">
+    <nav class="d-flex justify-content-around">
+        <div class="w-40">
+            <a class="d-flex justify-content-center" href="index.html">
+                <img src="../img/logo.png" alt="logo prechu">
+                <p>Prechu</p>
+            </a>
         </div>
-        <ul class="d-flex w-60 justify-content-evenly ctekstmain">
+
+        <ul class="d-flex w-60 justify-content-evenly">
             <li><a href="index.html">Home</a></li>
             <li><a href="#">Products</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
-
     </nav>
 
     <main>
-        <section id="latestnews" class="text-center">
-            <h2 class="ctekstmain">LATEST NEWS</h2>
-                <div class="d-flex justify-content-evenly">
-                <article class="latestnewsmargin">
-                  <img id="pencil" src="./img/pencil.png" alt="pencil">
-                    <h3 class="ctekstblue">Contrary to popular</h3>
-                      <p class="latestnewsp ctekstmain">lorem ipsum is not simply random text. It has roots in a piece.</p>
-                </article>
-                <article class="latestnewsmargin">
-                  <img id="pc" src="./img/pc.png" alt="pc">
-                    <h3 class="ctekstblue">Contrary to popular</h3>
-                      <p class="latestnewsp ctekstmain">lorem ipsum is not simply random text. It has roots in a piece.</p>
-                </article>
-                <article class="latestnewsmargin">
-                  <img id="basket" src="./img/basket.png" alt="basket">
-                    <h3 class="ctekstblue">Contrary to popular</h3>
-                      <p class="latestnewsp ctekstmain">lorem ipsum is not simply random text. It has roots in a piece.</p>
-                </article>
-                </div>
-
-        </section>
-        <section class="d-flex justify-content-evenly">
-            <div>
-                <h2 class="ctekstmain">The Shopping Cart</h2>
-                    <article>
-                        <img id="bigbasket" src="./img/bigbasket.png" alt="bigbasket">
-                    </article>
-            </div>
-            <div>
-                    <h3 class="ctekstmain">Some Bullet Text Here</h3>
-                        <p class="latestnewsp ctekstmain">Lorem Ipsum is simply dummy text of the printing an typesetting. Lorem Ipsum has been the industry's standard dummy text ever when a unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries but also the leap into electro,ic typesetting, remaining essentially unchanged. It was popularised the release of letraset sheets containing Lorem Ipsum passage
-                        </p>
-            </div>
-        </section>
         <section></section>
+        <!--BEGIN LATEST NEWS-->
+        <section id="latestnews" class="text-center">
+            <h2>LATEST NEWS</h2>
+            <div class="d-flex justify-content-evenly">
+                <article class="latestnewsmargin">
+                    <img class="cbgblue" id="pencil" src="./img/pencil.png" alt="pencil">
+                    <h3 class="ctekstblue">Contrary to popular</h3>
+                    <p class="latestnewsp">lorem ipsum is not simply random text.  has roots in a piece</p>
+                </article>
+                <article class="latestnewsmargin">
+                    <img id="pc" src="./img/pc.png" alt="pc">
+                    <h3 class="ctekstblue">Contrary to popular</h3>
+                    <p class="latestnewsp">lorem ipsum is not simply random text. It has roots in a piece</p>
+                </article>
+                <article class="latestnewsmargin">
+                    <img id="basket" src="./img/basket.png" alt="basket">
+                    <h3 class="ctekstblue">Contrary to popular</h3>
+                    <p class="latestnewsp">lorem ipsum is not simply random text. It has roots in a piece</p>
+                </article>
+            </div>
+        </section>
+        <!--BEGIN BASKET-->
+        <section class="d-flex justify-content-around ctekstmain">
+            <div>
+                <h2>Shopping Cart</h2>
+                <img src="./img/bigbasket.png" alt="big basket">
+            </div>
+
+            <div><h3>Some Bullet text here</h3>
+
+                <p class="latestnewsp">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    When an unknown printer took a galley of type and scrambled
+                    It to make a type specimen book. It has survived not only five centuries
+                    But also the leap into electronic typesetting,
+                    Remaining essentially unchanged. It was popularised
+                    The release of Letraset sheets containing Lorem Ipsum passages
+                </p>
+            </div>
+        </section>
+        <!--BEGIN SPORT-->
+        <h2 class="text-center">Sport</h2>
+        <section class="d-flex">
+            <div id="sportdivred">
+                <article>
+                    <h2>lorem</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi eligendi error minus nesciunt odit optio quia quidem vero voluptatibus? Facere illum molestias provident. Consectetur dignissimos dolore labore saepe voluptate!</p>
+                </article>
+                <article>
+                    <h2>lorem</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi eligendi error minus nesciunt odit optio quia quidem vero voluptatibus? Facere illum molestias provident. Consectetur dignissimos dolore labore saepe voluptate!</p>
+                </article>
+            </div>
+            <div>
+                <div id="sportdivorange" class="d-flex">
+                    <article>
+                        <h2>lorem</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi eligendi error minus nesciunt odit optio quia quidem vero voluptatibus? Facere illum molestias provident. Consectetur dignissimos dolore labore saepe voluptate!</p>
+                    </article>
+                    <article><h2>lorem</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi eligendi error minus nesciunt odit optio quia quidem vero voluptatibus? Facere illum molestias provident. Consectetur dignissimos dolore labore saepe voluptate!</p></article>
+                </div>
+                <div id="sportdivblue" class="d-flex">
+                    <article>
+                        <h2>lorem</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi eligendi error minus nesciunt odit optio quia quidem vero voluptatibus? Facere illum molestias provident. Consectetur dignissimos dolore labore saepe voluptate!</p>
+                    </article>
+                    <article>
+                        <h2>lorem</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi eligendi error minus nesciunt odit optio quia quidem vero voluptatibus? Facere illum molestias provident. Consectetur dignissimos dolore labore saepe voluptate!</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!--BEGIN KLIMAAT -->
+        <h2 class="text-center">Klimaat</h2>
+        <section class="text-center">
+            <div class="d-flex justify-content-evenly">
+                <div>
+                    <div id="klimaatred" class="d-flex">
+                        <article>
+                            <h2>lorem</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi eligendi error minus nesciunt odit optio quia quidem vero voluptatibus? Facere illum molestias provident. Consectetur dignissimos dolore labore saepe voluptate!</p>
+                        </article>
+                        <article>
+                            <h2>lorem</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi eligendi error minus nesciunt odit optio quia quidem vero voluptatibus? Facere illum molestias provident. Consectetur dignissimos dolore labore saepe voluptate!</p>
+                        </article>
+                    </div>
+                    <div id="klimaatgreen">
+                        <article>
+                            <h2>lorem</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi eligendi error minus nesciunt odit optio quia quidem vero voluptatibus? Facere illum molestias provident. Consectetur dignissimos dolore labore saepe voluptate!</p>
+                        </article>
+                        <article>
+                            <h2>lorem</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi eligendi error minus nesciunt odit optio quia quidem vero voluptatibus? Facere illum molestias provident. Consectetur dignissimos dolore labore saepe voluptate!</p>
+                        </article>
+                    </div>
+                </div>
+                    <div id="klimaatblue">
+                        <article>
+                            <h2>potato</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi eligendi error minus nesciunt odit optio quia quidem vero voluptatibus? Facere illum molestias provident. Consectetur dignissimos dolore labore saepe voluptate!</p>
+                        </article>
+                        <article>
+                            <h2>petatje</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi eligendi error minus nesciunt odit optio quia quidem vero voluptatibus? Facere illum molestias provident. Consectetur dignissimos dolore labore saepe voluptate!</p>
+                        </article>
+                        <article>
+                            <h2>puree</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi eligendi error minus nesciunt odit optio quia quidem vero voluptatibus? Facere illum molestias provident. Consectetur dignissimos dolore labore saepe voluptate!</p>
+                        </article>
+                    </div>
+                    <div>
+                        <div id="klimaatpurple" class="d-flex">
+                            <article>
+                                <h2 class="text-center">lorem</h2>
+                                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi eligendi error minus nesciunt odit optio quia quidem vero voluptatibus? Facere illum molestias provident. Consectetur dignissimos dolore labore saepe voluptate!</p>
+                            </article>
+                        </div>
+                        <div id="klimaatyelllow" class="d-flex">
+                            <article>
+                                <h2>lorem</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi eligendi error minus nesciunt odit optio quia quidem vero voluptatibus? Facere illum molestias provident. Consectetur dignissimos dolore labore saepe voluptate!</p>
+                            </article>
+                            <article>
+                                <h2>lorem</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi eligendi error minus nesciunt odit optio quia quidem vero voluptatibus? Facere illum molestias provident. Consectetur dignissimos dolore labore saepe voluptate!</p>
+                            </article>
+                        </div>
+                    </div>
+            </div>
+        </section>
     </main>
+
+
 
     <footer class="text-center ctekstmain">
         <p>Copyright &copy; 2012-2013 cssauthor.com</p>
     </footer>
+</div>
+
 </body>
 </html>
