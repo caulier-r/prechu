@@ -6,7 +6,9 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="author" content="Robin Cau">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
+
     <title>Prechu</title>
 </head>
 <body>
@@ -28,7 +30,15 @@
     </nav>
 
     <main>
-        <section></section>
+        <!-- BEGIN HERO -->
+
+        <section id="hero" class="d-flex justify-content-end">
+            <div>
+                <h1>Lorem Ipsum is simply <span>dummy text of the printing & typesetting</span></h1>
+                <button id="btn"><i class="fa-solid fa-circle-check"></i>Sign up now</button>
+            </div>
+        </section>
+
         <!--BEGIN LATEST NEWS-->
         <section id="latestnews" class="text-center">
             <h2>LATEST NEWS</h2>
@@ -109,7 +119,7 @@
         <section class="text-center">
             <div class="d-flex justify-content-evenly">
                 <div>
-                    <div id="klimaatred" class="d-flex">
+                    <div id="klimaatred" class="d-flex klimaat-category">
                         <article>
                             <h2>lorem</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi eligendi error minus nesciunt odit optio quia quidem vero voluptatibus? Facere illum molestias provident. Consectetur dignissimos dolore labore saepe voluptate!</p>
@@ -119,7 +129,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi eligendi error minus nesciunt odit optio quia quidem vero voluptatibus? Facere illum molestias provident. Consectetur dignissimos dolore labore saepe voluptate!</p>
                         </article>
                     </div>
-                    <div id="klimaatgreen">
+                    <div class="klimaat-category" id="klimaatgreen">
                         <article>
                             <h2>lorem</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi eligendi error minus nesciunt odit optio quia quidem vero voluptatibus? Facere illum molestias provident. Consectetur dignissimos dolore labore saepe voluptate!</p>
@@ -145,13 +155,13 @@
                         </article>
                     </div>
                     <div>
-                        <div id="klimaatpurple" class="d-flex">
+                        <div id="klimaatpurple" class="d-flex klimaat-category">
                             <article>
                                 <h2 class="text-center">lorem</h2>
                                 <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi eligendi error minus nesciunt odit optio quia quidem vero voluptatibus? Facere illum molestias provident. Consectetur dignissimos dolore labore saepe voluptate!</p>
                             </article>
                         </div>
-                        <div id="klimaatyelllow" class="d-flex">
+                        <div id="klimaatyelllow" class="d-flex klimaat-category">
                             <article>
                                 <h2>lorem</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi eligendi error minus nesciunt odit optio quia quidem vero voluptatibus? Facere illum molestias provident. Consectetur dignissimos dolore labore saepe voluptate!</p>
@@ -166,7 +176,10 @@
         </section>
     </main>
 
-
+    <section id="absolute">
+        <img src="./img/background_slider.png" alt="image">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur deleniti earum facilis ipsam nulla saepe suscipit! Consequuntur, distinctio dolore exercitationem, facilis labore maiores mollitia nam perspiciatis quos, sed tenetur unde.</p>
+    </section>
 
     <footer class="text-center ctekstmain">
         <p>Copyright &copy; 2012-2013 cssauthor.com</p>
